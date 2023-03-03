@@ -312,7 +312,7 @@ hr {
     align-items: center;
     font-size: 25px;
     cursor: pointer;
-    margin: 80px;
+    margin: 50px;
 }
 
 @keyframes slide {
@@ -453,7 +453,13 @@ hr {
 
     .contact-details {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
+       text-align: left;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .contact-details div{
+        margin-top: 30px;
     }
 
     .about-us .img1 {

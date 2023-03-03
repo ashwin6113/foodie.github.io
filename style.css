@@ -191,7 +191,7 @@ hr {
 
 .active-list:hover {
     margin-top: -20px;
-    box-shadow: 2px 2px 30px 2px #f1f1f1;
+    box-shadow: 2px 2px 30px 2px        #f1f1f1;
 }
 
 .list ul img {
@@ -253,9 +253,8 @@ hr {
     height: 170px;
     background-color: #ffc400;
     border-radius: 50%;
-    margin-left: px;
-    margin-top: -80px;
     margin-left: 25%;
+    margin-top: -80px;
     box-shadow: 2px 2px 10px 2px #f1f1f1;
 }
 
@@ -385,6 +384,7 @@ hr {
         display: none;
     }
 
+    
     .content {
         width: 100%;
         display: flex;
@@ -429,11 +429,17 @@ hr {
         display: flex;
         flex-direction: column;
     }
+    .active-list:hover{
+        display: none;
+    }
 
     .active-list {
         width: 280px;
         height: 350px;
         margin-top: 70px;
+    }
+    .person-list:hover {
+        display: none;
     }
 
     .person-list {
@@ -475,6 +481,9 @@ hr {
         font-size: 15px;
     }
 
+    .circle {
+        margin-left: 50%;
+    }
     .content {
         width: 100%;
         display: flex;
@@ -511,7 +520,7 @@ hr {
     }
 
     .circle {
-        margin-left: -20px;
+        margin-left: 25%;
     }
 }
 

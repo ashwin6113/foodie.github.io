@@ -249,8 +249,7 @@ hr {
 }
 
 .circle {
-    width: 45%;
-    height: 100%;
+    width: 50%;
     background-color: #ffc400;
     border-radius: 50%;
     margin-left: 26%;
@@ -259,7 +258,7 @@ hr {
 }
 
 .circle .bi-person-fill {
-    font-size: 130px;
+    font-size: 100px;
 }
 
 .person-list p {
@@ -454,9 +453,7 @@ hr {
         width: 280px;
         height: 350px;
     }
-    .circle {
-        margin-left: 55px;
-    }
+
 
     .contact-details {
         display: flex;
